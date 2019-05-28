@@ -1,0 +1,123 @@
+.page-left h3{
+    text-align: center;
+    color:beige;
+}
+.page-left{
+    background-color: burlywood;
+    height: 657px;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+.page-admin .list{
+    list-style: none;
+    padding: 0
+}
+.page-admin .list li{
+    padding: 15px 22px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.page-admin .list li a:active{
+    text-decoration: none
+}
+.page-admin .list li:hover{
+    background-color: antiquewhite;
+    opacity: 0.5;
+}
+.page-admin .list li:active{
+    background-color: antiquewhite;
+}
+.list li a{
+    font-size: larger;
+    font-weight: 500;
+  
+}
+.list i.fa{
+    color: brown;
+    font-size: 24px;
+}
+.menu-list{
+list-style: none;
+padding: 0
+}
+.menu-list li{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: aliceblue;
+}
+.menu{
+    margin-top: 5px
+}
+.ifr{
+    
+}
+iframe{
+    width: 100%;
+    overflow: hidden;
+    height: 770px;
+}
+.form-login{
+    display: block;
+   position: absolute;
+z-index: 100;
+background-color: cadetblue;
+height: 265px;
+width: 300px;
+border-radius: 8px;
+}
+.form-login input{
+    border-radius: 5px;
+    height: 32px;
+    margin: 5px;
+    margin-left: 14px;
+}
+.form-login label{
+    color: aliceblue;
+    padding: 5px 20px;
+}
+.form-login input[type="password"]
+{
+    border: 1px solid #e1e1e1;
+    padding: 0 12px;
+    width: 90%;
+}
+.form-login input[type="email"]{
+    width: 90%;
+}
+.form-login input[type="submit"]{
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 12px;
+}
+form input[type="file"],
+input[type="float"]
+{
+    height: 37px;
+    width: 135%;
+    border: 1px solid gainsboro;
+    padding: 6px;
+    margin-bottom: 8px
+}
+.tb tr,
+.tb td,
+.tb th
+{
+    border-collapse: collapse;
+border:1px solid black;
+padding: 5px
+}
+#form-add label{
+padding: 10px;
+font-size: 18px;
+font-weight: 300;
+}
+/* #form-add input{
+    width: 50%;
+} */
+#form-add select{
+    width: 10%;
+}
+
